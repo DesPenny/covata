@@ -3,7 +3,7 @@ Description=springboot
 After=syslog.target
 
 [Service]
-ExecStart=/var/springboot/spring-boot-sample-jetty-1.0.0.RC5.jar
+ExecStart=/usr/bin/java -jar /var/springboot/spring-boot-sample-jetty-1.0.0.RC5.jar
 
 [Install]
 WantedBy=multi-user.target
